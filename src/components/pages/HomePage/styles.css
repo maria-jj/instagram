@@ -1,12 +1,34 @@
 .Post-page{
     padding: 10px;
 }
-Post-container{
+.Post-container{
+    -webkit-box-align: center;
+    -webkit-align-items: scenter;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 0 solid #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
 }
-Post-title{
+.Post-title{
     padding: 10px;
     text-transform:uppercase;
     letter-spacing:2px;

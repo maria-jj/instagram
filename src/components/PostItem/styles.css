@@ -1,4 +1,4 @@
-.pet{
+.Post{
     width: 300px;
     display:flex;
     flex-direction: column;
@@ -9,22 +9,22 @@
 
 }
 
-.pet-photo{
-    width: 300px;
-    height:200px;
+.Post-photo{
+    width: 500px;
+    height:500px;
     object-fit:cover;
     margin-bottom:5px;
 }
-.pet-name{
+.Post-name{
     font-size: 1.3rem;
     padding:5px;
     text-transform:uppercase;
 }
 
-.pet-breed{
+.Post-breed{
     font-weight:bold;
 }
-.pet-breed, .pet-age{
+.Post-breed, .Post-age{
     color:gray;
     padding:5px;
     font-size:0.9 rem;
